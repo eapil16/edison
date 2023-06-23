@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.003" height="78" viewBox="0 0 84.003 78">
+  <defs>
+    <filter id="Compound_Path" x="0" y="0" width="84.003" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Compound_Path)">
+    <path id="Compound_Path-2" data-name="Compound Path" d="M79.189,33.944h0C77.1,23.741,69.742,17.091,60.2,17.091A25.565,25.565,0,0,0,46.67,21.464,25.475,25.475,0,0,0,33.044,17c-9.538,0-16.986,6.65-18.894,16.944-2.725,14.12,5.632,32.8,30.43,42.634a5.617,5.617,0,0,0,4.269,0C64,70.436,72.963,61.041,77.135,51.227A30.217,30.217,0,0,0,79.189,33.944ZM46.67,69.655l7.363-32.376L30.255,25.193S43.42,59.23,44.49,58.929C50.3,57.289,17.33,44.9,21.236,47.811c1.292.972,24.142,12.089,25.434,11.117C50.576,56.014,56.753,33.944,60.2,33.944c5.9,0-40.331,7.126-38.969,13.867C23.325,58.925,46.67,69.655,46.67,69.655Z" transform="translate(-4.66 -11)" fill="#fff"/>
+  </g>
+</svg>
