@@ -12584,13 +12584,13 @@ ul.projects-details li+li:after {
     text-align: left;
     font-family: 'MuseoSansCyrl-300';
 }
-.vacancies-item__block .list {
+.vacancies-item__block ul {
     margin: 0;
     padding: 0;
     display: block;
     max-width: 560px;
 }
-.vacancies-item__block .list li {
+.vacancies-item__block ul li {
     font-size: 14px;
     line-height: 20px;
     margin: 0;
@@ -12600,7 +12600,7 @@ ul.projects-details li+li:after {
     display: block;
     padding: 0;
 }
-.vacancies-item__block .list li:before {
+.vacancies-item__block ul li:before {
     content: ' - ';
     font-size: 14px;
     color: #373737;
@@ -12617,22 +12617,12 @@ ul.projects-details li+li:after {
     font-family: 'MuseoSansCyrl-700';
 }
 
-.vacancies-item__block p a.phone {
-    color: #373737;
-    text-decoration: none;
-}
-
-.vacancies-item__block p a.phone:hover {
-    color: #373737;
-    text-decoration: underline;
-}
-
-.vacancies-item__block p a.mail {
+.vacancies-item__block p a {
     color: #004675;
     text-decoration: underline;
 }
 
-.vacancies-item__block p a.mail:hover {
+.vacancies-item__block p a:hover {
     color: #004675;
     text-decoration: none;
 }
